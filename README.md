@@ -39,3 +39,6 @@ python kmeans.py
 
 ## Expectation-Maximization
 python em.py
+
+## Neural Network
+python neural_network.py
