@@ -32,7 +32,7 @@ python ica.py
 python rp.py
 
 ## Factor Analysis
-python fa.py
+python factor.py
 
 ## K-Means
 python kmeans.py

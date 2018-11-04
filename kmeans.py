@@ -14,7 +14,10 @@ np.random.seed(random_state)
 
 def optimize_k_means(dataset, min_clusters, max_clusters):
 
-    X, y = load_reduced(dataset)
+    if '-' in dataset:
+        X, y = load_reduced(dataset)
+    else:
+        X, y = load_dataset(dataset)
     data = X
 
     n_samples, n_features = data.shape
